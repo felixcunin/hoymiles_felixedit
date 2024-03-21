@@ -1,5 +1,4 @@
 {
-   sensor: {
       "array_size":{
          "name":"array_size",
          "device_class":"power",
@@ -46,5 +45,5 @@
           "icon":"",
           "unit_of_measurement":""
       }
-   }
+   
 }
