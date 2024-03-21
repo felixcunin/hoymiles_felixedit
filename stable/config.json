@@ -10,7 +10,7 @@
     "amd64",
     "i386"
   ],
-  "url": "https://github.com/dmslabsbr/hoymiles/tree/master/stable",
+  "url": "https://github.com/felixcunin/hoymiles_felixedit/blob/master/stable",
   "startup": "application",
   "boot": "auto",
   "init": false,
@@ -28,9 +28,9 @@
   "panel_title": "HoyMiles Solar Data Gateway Stable version.",
   "panel_admin": false,
   "options": {
-    "HOYMILES_USER": "HOYMILES_USER",
-    "HOYMILES_PASSWORD": "HOYMILES_PASSWORD",
-    "HOYMILES_PLANT_ID": "123",
+    "HOYMILES_USER": "felixcunin@gmail.com",
+    "HOYMILES_PASSWORD": "Oq251b8a!!",
+    "HOYMILES_PLANT_ID": "3674240",
     "External_MQTT_Server": false,
     "MQTT_Host": "Internal - Change here if you use another server",
     "MQTT_User": "Automatically obtained from Home Assistant - Change here if you use another server",
