@@ -14,29 +14,29 @@
    },
    "reflux_station_data":{
       "name":"reflux_station_data",
-      "icon":"mdi:crosshairs-question",
-      "pv_power":{
-         "name":"pv_power",
-         "icon":"mdi:solar-power",
-         "state_class":"measurement",
-         "device_class":"power",
-         "unit_of_measurement":"kW"
-      },
-      "grid_power":{
-         "name":"grid_power",
-         "icon":"mdi:solar-power",
-         "state_class":"measurement",
-         "device_class":"power",
-         "unit_of_measurement":"kW"
-      },
-      "load_power":{
-         "name":"load_power",
-         "icon":"mdi:solar-power",
-         "state_class":"measurement",
-         "device_class":"power",
-         "unit_of_measurement":"kW"
-      }
+      "icon":"mdi:crosshairs-question"
    },
+   "pv_power":{
+      "name":"reflux_station_data/pv_power",
+      "icon":"mdi:solar-power",
+      "state_class":"measurement",
+      "device_class":"power",
+      "unit_of_measurement":"kW"
+   },
+   "grid_power":{
+      "name":"reflux_station_data.grid_power",
+      "icon":"mdi:solar-power",
+      "state_class":"measurement",
+      "device_class":"power",
+      "unit_of_measurement":"kW"
+   },
+   "load_power":{
+      "name":"load_power",
+      "icon":"mdi:solar-power",
+      "state_class":"measurement",
+      "device_class":"power",
+      "unit_of_measurement":"kW"
+   }
    
    "todos":{ 
        "name":"",
