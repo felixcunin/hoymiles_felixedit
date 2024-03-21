@@ -18,14 +18,14 @@
          "icon":"mdi:crosshairs-question"
       },
       "pv_power":{
-         "name":"reflux_station_data/pv_power",
+         "name":"pv_power",
          "icon":"mdi:solar-power",
          "state_class":"measurement",
          "device_class":"power",
          "unit_of_measurement":"kW"
       },
       "grid_power":{
-         "name":"reflux_station_data.grid_power",
+         "name":"grid_power",
          "icon":"mdi:solar-power",
          "state_class":"measurement",
          "device_class":"power",
