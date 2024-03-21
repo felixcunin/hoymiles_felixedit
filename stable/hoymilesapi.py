@@ -282,6 +282,14 @@ class Hoymiles(object):
         last_data_time = datetime.strptime(last_data_time, '%Y-%m-%d %H:%M:%S')
         solar_data['last_data_time'] = last_data_time.replace(
             tzinfo=LOCAL_TIMEZONE).isoformat()
+      
+        pv_power = float(solar_data['pv_power'])
+        solar_data['pv_power'] = str(pv_power)
+        grid_power = float(solar_data['grid_power'])
+        solar_data['grid_power'] = str(grid_power)
+        load_power = float(solar_data['pv_power'])
+        solar_data['load_power'] = str(load_power)
+      
         self.logger.info(f"last_data_time {solar_data['last_data_time']}")
 
         return solar_data
