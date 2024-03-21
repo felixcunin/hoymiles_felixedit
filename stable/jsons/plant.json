@@ -12,12 +12,6 @@
             "icon": "mdi:solar-panel",
             "unit_of_measurement": "kW"
         },
-        "co2_emission_reduction": {
-            "name": "co2_emission_reduction",
-            "icon": "mdi:molecule-co2",
-            "state_class": "total_increasing",
-            "unit_of_measurement": "t"
-        },
         "is_balance": {
             "name": "is_balance",
             "icon": "mdi:crosshairs-question"
